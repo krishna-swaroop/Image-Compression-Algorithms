@@ -1,2 +1,3 @@
 # Image-Compression-Algorithms
-Compilation of codes to arrive at a technical ability to develop a proprietary algorithm for CCSDS Image compression Standard.
+This repository contains my take on various existing image compression standards while also tracking my progress to develop a proprietary 
+algorithm for the CCSDS Image compression standard to transmit hyperspectral data being captured by a CubeSat.
