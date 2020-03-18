@@ -21,9 +21,7 @@ entity sync_fifo_ff is
 
         read_data   : out std_ulogic_vector(90 downto 0);
         fifo_empty  : out std_ulogic;
-        rdata_valid : out std_ulogic;
-        
-    );
+        rdata_valid : out std_ulogic);
 end entity sync_fifo_ff;
 
 architecture sync_fifo_ff_arch of sync_fifo_ff is
