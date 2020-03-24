@@ -37,7 +37,7 @@ architecture fifo_out_arch of fifo_out is
     signal cb_data_ready, cr_data_ready, y_data_ready: std_logic;
     signal end_of_block_output, y_eob_empty: std_logic; 
     signal cb_eob_empty, cr_eob_empty: std_logic;
-    -- signal y_fifo_empty: std_logic;
+    signal y_fifo_empty: std_logic;
 
 
     signal cr_bits_out1, cr_bits_out2, cb_bits_out1, cb_bits_out2: std_logic_vector(31 downto 0);
