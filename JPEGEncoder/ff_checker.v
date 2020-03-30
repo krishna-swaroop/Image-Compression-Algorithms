@@ -1,3 +1,4 @@
+// JPEG Encoder Block
 /* Made by D. Krishna Swaroop, 2017A3PS0315P as part of Study oriented Project in 6th Semester
    BITS Pilani. */
 
@@ -12,19 +13,19 @@ and then continues with the rest of the bitstream after the 00, in accordance wi
 module ff_checker(clk, rst, end_of_file_signal, JPEG_in, data_ready_in, orc_reg_in,
 JPEG_bitstream_1, data_ready_1, orc_reg, eof_data_partial_ready);
 //defining IO
-input		clk;
-input		rst;
-input		end_of_file_signal;
+input	clk;
+input	rst;
+input	end_of_file_signal;
 input  [31:0]  JPEG_in;
-input		data_ready_in;
+input	data_ready_in;
 input	[4:0]	orc_reg_in;
 output  [31:0]  JPEG_bitstream_1;
-output		data_ready_1;
+output	data_ready_1;
 output	[4:0]	orc_reg;
-output		eof_data_partial_ready;
+output	eof_data_partial_ready;
 
 		
-reg	first_2bytes, second_2bytes, third_2bytes, fourth_2bytes;
+reg first_2bytes, second_2bytes, third_2bytes, fourth_2bytes;
 reg first_2bytes_eof, second_2bytes_eof, third_2bytes_eof;
 reg fourth_2bytes_eof, fifth_2bytes_eof, s2b, t2b; 
 reg [79:0]	JPEG_eof_6, JPEG_eof_7;
