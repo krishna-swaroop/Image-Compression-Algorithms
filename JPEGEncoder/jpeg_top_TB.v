@@ -1,3 +1,4 @@
+// JPEG Encoder Block
 /* Made by D. Krishna Swaroop, 2017A3PS0315P as part of Study oriented Project in 6th Semester
    BITS Pilani. */
   
