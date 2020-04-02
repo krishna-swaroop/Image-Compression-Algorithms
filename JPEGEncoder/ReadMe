@@ -7,5 +7,5 @@ The RGB data is first converted to YCbCr format. This data is separately passed 
 consecutively. yd_q_h, Cbd_q_h, Crd_q_h modules are upper level abstractions of these processes. The data is then passed through multiple
 FIFOs to manipulate the data in accordance with the JPEG format.
 
-The testbench code stimulates the entire circuit with a picture of Jessicca Alba by putting Pixxel data bit by bit. A short MATLAB script
+The testbench code stimulates the entire circuit with a sample picture by putting pixel data bit by bit. A short MATLAB script
 had to be prepared to convert the .tif file to a bitmap format and copy the pixel values.
