@@ -9,3 +9,5 @@ FIFOs to manipulate the data in accordance with the JPEG format.
 
 The testbench code stimulates the entire circuit with a sample picture by putting pixel data bit by bit. A short MATLAB script
 had to be prepared to convert the .tif file to a bitmap format and copy the pixel values.
+
+The SOP_Report file is a semester report for the Study Oriented Project. This contains detailed explainations of each module
