@@ -1,3 +1,5 @@
+# JPEG Encoder
+
 This folder contains a hardware implementation of a JPEG Encoder developed as part of a Study Oriented Project in my 6th semester.
 
 The top-level module takes in a 24-bit input of the image to be compressed and gives out a JPEG bitstream. The 24-bit sequence has pixel
